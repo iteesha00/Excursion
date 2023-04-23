@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Combo&family=Nunito+Sans&display=swap');
+body{
+    background-image:url("../Images/91.jpg");
+    background-position:top;
+    background-attachment:fixed;
+    background-repeat:none;
+    }
+    
+    .plane{
+        height:10px;
+        position:absolute;
+        animation: planeAnimate 15s linear infinite;
+    }
+    @keyframes planeAnimate{
+        from{
+            right: 100vw;
+        }
+        to{
+            right: -40vw;
+        }
+    }
+
+    .box{
+        margin-left: 35%;
+        margin-top: 10%;
+        background-color: #000000d9;
+        background-attachment: fixed;
+        border-radius:44px;
+        width:350px;
+        height: 330px;
+        align-content: center;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+    .inside_box{
+        margin-left: 65px;
+        padding-bottom:0px;
+        margin-top: 10px;
+        color: white;
+        font-family:'Combo';
+        width: 50px;
+    }
+    h1{
+        color: aliceblue;
+        font-weight:bolder; 
+    }
+    h3{
+        color: aliceblue;
+        font-weight:bolder; 
+    }
+    h4{
+        color: aliceblue;
+    }
+    .inside_button{
+        padding:10px;
+        margin-left: 60px;
+        width: 100px;
+        color: white;
+        font-family: cursive;
+        border-radius: 20px;
+        background-color: rgb(222, 23, 23);
+        font-size:15px;
+        font-weight: bold;
+        margin-top: 5px;
+        cursor:pointer;
+    }
+    .inside_button:hover{
+    background-color:rgb(142, 20, 4);
+    border-color: aqua;
+    }
+    .heading3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   .top{
+    border-radius: 10px;
+    width: 210px;
+    height: 25px;
+    padding-left:5px ;
+
+   }
+   .register
+   {
+    text-decoration: none;
+    padding-left: 10px;
+    color:aqua
+   }
+   .profile a {
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    color:black;
+    margin-right: 1rem;
+    }
+    .profile a :hover{
+    color:var(--orange);
+    }
+    .d{
+    color: hsl(167, 53%, 7%);
+    font-weight: bolder;
+    padding: 10px 25px;
+    background-color: #68dcffaa;
+    border: 2px solid rgb(16, 4, 4);
+    /* border-radius: 20px; */
+    outline:none;
+    cursor: pointer;
+    border-radius: 25px;
+    border-top-right-radius:10;
+    border-top-left-radius:0;
+    } 
